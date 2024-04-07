@@ -1,76 +1,127 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="st.css">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!--box icons-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="file:///home/mafock/T%C3%A9l%C3%A9chargements/css/style.css">
 </head>
 <body>
-    <section class="h0">
-        <a href="#0" style="color: aqua;" class="menu">INFOS</a>
-        <a href="#1" class="menu">OBJECTIF PROFESIONEL</a>
-        <a href="#2" class="menu">FORMATION</a>
-        <a href="#3" class="menu">EXPERIENCE PROFESIONEL</a>
-        <a href="#4" class="menu">COMPETENCE</a>
-        <a href="#5" class="menu">CENTRE DINTERET</a>
-        <a href="#6" class="menu">REFERENCE</a>
+     <header class="header"> 
+         <a href="#" class="logo">Portfolio</a> 
+
+        <i class='bx bx-menu' id="menu-icon"></i>  
+
+        <h1><nav class="navbar">
+            <a href="#home" class="active">Home</a> 
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav></h1>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3><p>Hello, It's Me</h3>
+            <h3>Mafock Ngunte Berthe Fidele</h3>
+            <h3>Je suis une <span>etudiante en ICT4D a l'Universite de Yaounde 1</span></h3>
+            <h3>Étudiante passionnée d'informatique cherchant à acquérir de l'expérience pratique dans le domaine, en mettant à profit ses connaissances théoriques et sa volonté d'apprendre.</p></h3>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Download Cv</a>
+
+        <div class="home-img">
+            <img src="images/belle.png" alt="">
+        </div>
 
     </section>
-    <section class="h1">
-        <div class="inf0">
-        <div>
-        <img src="1.jpg" class="img">
-        </div>
-        <div>
-            <center><p class="info1" id="0">APROPOS DE MOI</p></center>
-            <div class="lign"></div>
-            <p class="info">Prenom nom: Djenu Kemche Edouard Junior</p>
-            <p class="info">Adress: yaounde</p>
-            <p class="info">Telephone: 676605676, 657737525</p>
-            <p class="info">Email: bossotaku4@gmail.com</p>
-        </div>
-    </div>
-    <b class="info1" id="2"><center>MES FORMATIONS</center></b>
-    <div class="lign"></div>
-    <div class="inf0">
-        <div class="forma" style="display: inline;"><center><b class="posit"><br><br>FORMATION EN C </b></center></div>
-        <div class="forma" style="display: inline;"><center><b class="posit"><br><br>FORMATION EN C++</b></center></div>
-    </div>
-    <div class="inf0" id="3">
-        <div class="forma" style="display: inline;"><center><b class="posit"><br><br>FORMATION EN <br>HTML</b></center></div>
-        <div class="forma" style="display: inline;"><center><b class="posit"><br><br>FORMATION EN PYTHON</b></center></div>
-    </div>
-    <div class="lign"></div>
-    <b class="info1" ><center><br>EXPERIENCE PROFESIONEL <br></center></b>
-    <center><p class="info">Aucunne</p></center>
-    </section>
-    <section class="h2">
-        <div class="lign"></div>
-        <b class="info1" id="4"><center><br>OUTILS DE DEVELOPEMENT<br></center></b>
-       <div class="inf0">
-         <div class="deco2">
-            <center><button class="circle" style="margin-top: 10px;"><br><b class="info1">TERMINAL-UBUNTU</b></button></center>
-            <center><p class="info">Utilisation dans le system linux</p></center>
-        </div>
-        <div class="deco2">
-            <center><button class="circle" style="margin-top: 10px;"><br><b class="info1">VirS-CODES</b></button></center>
-            <center><p class="info">Utilisation dans les system ubuntu et windows</p></center>
-        </div>
-    </div>
-        
-        <div class="lign"></div>   
-        <div>
-            <center><b class="info1" id="5"><br>CENTRE D'INTERET<br></b></center>
-            <div>
-                <ul>
-                    <li><span class="info1">developement personel :</span><span  style="margin-left: 30%;"></span><span>Aime faire des recherches pour etudier en ligne</span></li>
-                    <li><span class="info1">Games :</span><span style="margin-left: 39.25%;"></span>aime jouer des jeux</li>
-                    <li><span class="info1">Lire: </span><span style="margin-left: 40.75%;"></span>aime lire les documentaires et autres</li>
-                
-            </ul></div>
-    </div>
-    </section>
-    <section class="fin" id="6"><center><div style="margin-bottom: 20px; border: 5PX solid rgb(12, 233, 233,0.3); max-width: 300px; border-radius: 35px; max-height: 60px;"><p style="color: rgb(0, 255, 255,0.5); font-family: italic; font-size: smaller;display: inline;">REFERENCE <br>676605676 <br>bossotaku4@gmail.com</p></div></center></section>
 
-</body></html>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="belle.png" alt="">
+            <div class="about-content">
+                <h1><li>1-Formation:<br>
+                    titulaire d'un Baccalauréat C, inscrite en filiere ICT4D<br>
+                    Université de yaounde 1<br>
+                    yaounde, Cameroun<br>
+                    Année d'obtention prévue : 2026<br></li>
+            
+                    <li>2-techniques :<br>
+                    - Langages de programmation : C, C++ <br>
+                    - Développement web : HTML, CSS <br>
+                    - Systèmes d'exploitation : Windows, Linux<br>
+                    - Outils de développement : Sublim texte, Visual Studio Code<br></li> 
+            
+                    <li>3-Projets académiques :<br>
+                    - Réalisation d'un projet de programmation en Java, implémentant un système de gestion de bibliothèque.<br>
+                    - Développement d'un site web statique utilisant HTML et CSS pour présenter une entreprise fictive.<br></li>
+            
+                    <li>4-Compétences :<br>
+                    - Capacité à travailler efficacement en équipe sur des projets de programmation.<br>
+                    - Bonnes capacités de communication et aptitude à expliquer des concepts techniques de manière claire.<br>
+                    - Curiosité et désir d'apprendre de nouvelles technologies et langages de programmation.<br></li>
+            
+                    <li>5-Engagements étudiants :<br>
+                    - Membre actif du GDG, participant à des ateliers et des présentations sur les dernières tendances technologiques.<br></li>
+            
+                    <li>6-Centres d'intérêt :<br>
+                    - Exploration de nouvelles technologies et de projets open source.<br>
+                    - Participation à des hackathons et événements liés à l'informatique.</li></h1>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <div class="about-img">
+            <img src="belle.png" alt="">
+            <h1> 676937589 <br>
+            addresse:  yaounde,emana <br>
+            email:  mafock241@gmail.com <br></h1> 
+        </div>
+        <a href="#" class="btn">Read More</a>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <!-- Ajoutez votre contenu pour cette section ici -->
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="full name">
+                <input type="email" placeholder="email address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="send message" class="btn1">
+        </form>
+    </section>
+
+    <!-- custom js -->  
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
