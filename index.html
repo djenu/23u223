@@ -1,127 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Portfolio</title>
-    <link rel="stylesheet" href="st.css">
-
-    <!--box icons-->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-    <!--custom css-->
-    <link rel="stylesheet" href="file:///home/mafock/T%C3%A9l%C3%A9chargements/css/style.css">
+    <title>WONDER-SHOP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-beta/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"
 </head>
 <body>
-     <header class="header"> 
-         <a href="#" class="logo">Portfolio</a> 
+    <section class="header-section">
+        <header class="navbar">
+            <div class="logo">
+                <img src="eCommerce/images/logo.png" alt="Wonder logo">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Produits</a></li>
+                    <li><a href="">A Propos</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Compte</a></li>
+                </ul>
+                <img src="eCommerce/images/pb5.jpg" alt="cart icon" width="30px">
+            </nav>
+        </header>
 
-        <i class='bx bx-menu' id="menu-icon"></i>  
-
-        <h1><nav class="navbar">
-            <a href="#home" class="active">Home</a> 
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav></h1>
-    </header>
-
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3><p>Hello, It's Me</h3>
-            <h3>Mafock Ngunte Berthe Fidele</h3>
-            <h3>Je suis une <span>etudiante en ICT4D a l'Universite de Yaounde 1</span></h3>
-            <h3>Étudiante passionnée d'informatique cherchant à acquérir de l'expérience pratique dans le domaine, en mettant à profit ses connaissances théoriques et sa volonté d'apprendre.</p></h3>
-        </div>
-        <div class="social-media">
-            <a href="#"><i class="bx bxl-facebook"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-instagram"></i></a>
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-        </div>
-        <a href="#" class="btn">Download Cv</a>
-
-        <div class="home-img">
-            <img src="images/belle.png" alt="">
-        </div>
-
-    </section>
-
-    <!-- about section design -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="belle.png" alt="">
-            <div class="about-content">
-                <h1><li>1-Formation:<br>
-                    titulaire d'un Baccalauréat C, inscrite en filiere ICT4D<br>
-                    Université de yaounde 1<br>
-                    yaounde, Cameroun<br>
-                    Année d'obtention prévue : 2026<br></li>
-            
-                    <li>2-techniques :<br>
-                    - Langages de programmation : C, C++ <br>
-                    - Développement web : HTML, CSS <br>
-                    - Systèmes d'exploitation : Windows, Linux<br>
-                    - Outils de développement : Sublim texte, Visual Studio Code<br></li> 
-            
-                    <li>3-Projets académiques :<br>
-                    - Réalisation d'un projet de programmation en Java, implémentant un système de gestion de bibliothèque.<br>
-                    - Développement d'un site web statique utilisant HTML et CSS pour présenter une entreprise fictive.<br></li>
-            
-                    <li>4-Compétences :<br>
-                    - Capacité à travailler efficacement en équipe sur des projets de programmation.<br>
-                    - Bonnes capacités de communication et aptitude à expliquer des concepts techniques de manière claire.<br>
-                    - Curiosité et désir d'apprendre de nouvelles technologies et langages de programmation.<br></li>
-            
-                    <li>5-Engagements étudiants :<br>
-                    - Membre actif du GDG, participant à des ateliers et des présentations sur les dernières tendances technologiques.<br></li>
-            
-                    <li>6-Centres d'intérêt :<br>
-                    - Exploration de nouvelles technologies et de projets open source.<br>
-                    - Participation à des hackathons et événements liés à l'informatique.</li></h1>
-                    <a href="#" class="btn">Read More</a>
+        <div class="row">
+            <div class="col-2">
+                <h1>BIENVENU  A<br> WONDER-SHOP</h1>
+                <P>Entrer dans l'univers du chick et du glamour.</P>
+                <a href=""class="btn">Explorer ici&#10139;</a>
+            </div>
+            <div class="col-2">
+                <img src="eCommerce/images/belle.jpg" alt="landing image">
             </div>
         </div>
     </section>
-
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-        <div class="about-img">
-            <img src="belle.png" alt="">
-            <h1> 676937589 <br>
-            addresse:  yaounde,emana <br>
-            email:  mafock241@gmail.com <br></h1> 
+    <!--section des categories-->
+    <section class="Produits">
+        <div class="container">
+            <h2>CATEGORIE FEMME</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="eCommerce/F/02.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/4.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/5.jpg" alt="">
+                </div>                
+                <div class="col-3">
+                    <img src="eCommerce/F/8.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/9.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/10.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/11.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/12.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/13.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/14.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/15.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/16.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/17.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/18.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="eCommerce/F/19.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <a href="#" class="btn">Read More</a>
-    </section>
-
-    <!-- services section design -->
-    <section class="services" id="services">
-        <!-- Ajoutez votre contenu pour cette section ici -->
-    </section>
-
-    <!--contact section-->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="full name">
-                <input type="email" placeholder="email address">
+        <div class="container">
+            <h3>CATEGORIE HOMME</h3>
+            <div class="row">
+                <div class="col-4">
+                    <img src="eCommerce/H/HH1.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH2.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH3.jpg" alt="">
+                </div>    
+                <div class="col-4">
+                    <img src="eCommerce/H/HH4.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH5.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH6.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH7.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH8.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH9.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH10.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH111.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH12.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH13.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH14.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH15.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH16.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH17.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="eCommerce/H/HH18.jpg" alt="">
+                </div>
+            </div>        
+     
+        <div class="container">
+            <h4>CATEGORIE ENFANT</h4>
+            <div class="row">
+                <div class="col-5">
+                    <img src="eCommerce/E/enb1.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb2.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb3.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb4.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb5.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb6.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb7.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/enb8.jpg" alt="">
+                </div>   
+                <div class="col-5">
+                    <img src="eCommerce/E/enb9.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb1.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb2.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb3.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb4.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb5.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb6.jpg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="eCommerce/E/hb7.jpg" alt="">
+                </div>
             </div>
-
-            <div class="input-box">
-                <input type="number" placeholder="Mobile number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <input type="submit" value="send message" class="btn1">
-        </form>
+        </div> 
+    </section> 
+    <!------shipping---->
+    <section class="settle">
+        <center>
+            <p>Abonnez-vous à notre entrprise et recevez <span>10%</span>de réduction sur votre premier achat</P><br>
+            <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                <input name="EMAIL" placeholder="Votre adresse e-mail" required="" type="email">
+                <button class="btn">Souscrire</button>
+            </form>
+        </center>    
     </section>
-
-    <!-- custom js -->  
-    <script src="js/script.js"></script>
-</body>
-</html>
-
-
+    <!---------banner sec-->
+    <section class="banner-sec">
+        <div class="small-container">
+            <div class="row">
+                <p>LIVRAISON GRADUITE <br>Commandes Terminées 1000 FCFA</p>
+                <p>RETOUR PERMIT<br>Retourner avant 30 jours</p>
+                <p>PAYMENT SECURISE <br>payment securise a 100%</p>
+                <p>MEILLEUR PRIx <br>Prix Guarantie</p>
+            </div>
+        </div>
+    </section>          
+</body> 
+</html>   
